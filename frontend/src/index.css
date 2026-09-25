@@ -1,0 +1,79 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.site-header {
+  align-items: center;
+  background: #123c69;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.site-header h1 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.site-header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.site-header a {
+  color: white;
+}
+
+main {
+  margin: 3rem auto;
+  max-width: 720px;
+  padding: 0 1rem;
+}
+
+.page-card {
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 8%);
+  padding: 2rem;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+label {
+  display: grid;
+  gap: 0.4rem;
+  font-weight: 600;
+}
+
+input,
+button {
+  border: 1px solid #cbd5e1;
+  border-radius: 0.4rem;
+  font: inherit;
+  padding: 0.65rem;
+}
+
+button {
+  background: #1769aa;
+  color: white;
+  cursor: pointer;
+}
