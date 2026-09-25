@@ -1,0 +1,5 @@
+# ML research pipeline dependencies
+numpy
+pandas
+scikit-learn
+librosa
